@@ -12,6 +12,9 @@ The tools and languages required to publish a repo with Github Pages are a web b
 - [DevMountain](https://devmountain.com/guides/learn-web-development)
 ## Contributors
 Justin Folkerts  
-Computer Science Major  
+Computer Science Major 
+
+## Work Cited
+I used both https://www.w3schools.com/whatis/ and https://getbootstrap.com/ as sources for the code in this project 
 
 ![Welcome to Bedford](https://live.staticflickr.com/746/22470282347_e178bcd8f1_b.jpg) 

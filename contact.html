@@ -74,6 +74,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <script>
+        // Check browser support
+        if (typeof (Storage) !== "undefined") {
+            // Store
+            localStorage.setItem("fullname", "new user");
+            // Retrieve
+            document.getElementById("result").innerHTML = localStorage.getItem("fullname");
+        } else {
+            document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
+        }
+    </script>
 </body>
 
 </html>

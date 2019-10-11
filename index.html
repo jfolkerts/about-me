@@ -30,7 +30,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="myapp.html">Calculator</a>
-                    
+
                     </a>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -85,17 +85,21 @@
                 Here is one of my favorite songs of all time. <br>
                 <iframe src="https://www.youtube.com/embed/4v8KEbQA8kw" width="420" height="345" frameborder="0"
                     allowfullscreen> </iframe>
-
+                <br>
+                <section>
+                    <button id="getJokeButton" class="btn btn-success">Fetch Joke</button>
+                    <hr>
+                    <p id="result"></p>
+                </section>
             </article>
 
             <aside class="col-sm-4">
                 <h2>Aside</h2>
                 Links:
                 <ol>
-                    <li><a href=https://github.com/jfolkerts> <img src="GitHub-Mark-32px.jpg"
-                            alt="Github"> </a></li>
-                    <li><a href=https://www.linkedin.com/in/justin-folkerts-564bb314b> <img
-                            src="LI-In-Bug.jpg" alt="LinkIn"></a></li>
+                    <li><a href=https://github.com/jfolkerts> <img src="GitHub-Mark-32px.jpg" alt="Github"> </a></li>
+                    <li><a href=https://www.linkedin.com/in/justin-folkerts-564bb314b> <img src="LI-In-Bug.jpg"
+                            alt="LinkIn"></a></li>
                 </ol>
             </aside>
         </div>
@@ -110,6 +114,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js"></script>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src="fetch-joke.js"></script>
 </body>
 
 </html>

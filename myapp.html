@@ -23,7 +23,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
@@ -47,18 +47,24 @@
         <div class="row">
             <article class="col-sm-8">
 
-                <h2>Area</h2>
+                <h2>Area Calculator</h2>
+                <hr>
 
-                <form action="/action_page.php">
-                    Length:<br>
-                    <input type="text" name="length">
-                    <br>
-                    Width:<br>
-                    <input type="text" name="width">
-                    <br><br>
-                    <button type="submit" id="submit-button"
-                        class="btn btn-outline-success my-2 my-sm-0">Calculate</button>
-                </form>
+                <fieldset class="mt-4">
+                    <label for="len">Enter length:</label>
+                    <input id="len" type="number" minlength="1" maxlength="100" value="5">
+                </fieldset>
+
+                <fieldset class="mt-4">
+                    <label for="wid">Enter width:</label>
+                    <input id="wid" type="number" minlength="1" maxlength="100" value="10">
+                </fieldset>
+                <hr>
+                <h2>Calculate area:</h2>
+                <hr>
+                <button id="area" class="btn btn-primary">Calculate</button>
+                <hr>
+                <p id="result"></p>
 
             </article>
 
@@ -74,6 +80,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
